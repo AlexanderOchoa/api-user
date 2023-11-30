@@ -20,7 +20,7 @@ Maven
 Embedded DB (H2)[README.md](..%2F..%2F..%2F..%2FDesktop%2Fprojects%2Fprociencia%2Fback-end%2FREADME.md)
 
 # Steps to run the project
-- Clone the repository https://dev.azure.com/cti-proyectos/PROCIENCIA%20Graficas/_git/back-end
+- Clone the repository https://github.com/AlexanderOchoa/api-user
 - Checkout in the branch develop
 - Config JDK 8 in the IDE
 - Download dependencies (mvn clean install)
