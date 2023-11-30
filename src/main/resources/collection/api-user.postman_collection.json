@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "01dcb1ab-3556-4def-b6cf-85251afac1a5",
+		"name": "api-user",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1483689",
+		"_collection_link": "https://crimson-shadow-635086.postman.co/workspace/Prociencia-develop~d325ba32-d5ba-4e70-b6d5-49968eb948b7/collection/1483689-01dcb1ab-3556-4def-b6cf-85251afac1a5?action=share&source=collection_link&creator=1483689"
+	},
+	"item": [
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Alexander\",\r\n    \"email\": \"alex@gail.com\",\r\n    \"password\": \"123456\",\r\n    \"phones\": [\r\n        {\r\n            \"number\": \"123456789\",\r\n            \"cityCode\": \"PE\",\r\n            \"countryCode\": \"51\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
